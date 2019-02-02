@@ -12,4 +12,4 @@ The purpose of the connection is to allow the GUI to receive progress updates fr
 
 This proposal doesn't contain an example demonstrating how to setup and receive messages from a connection shared between two processes. But this can easily be integrated into each of the examples, if desirable.
 
-[[Back to Table of Contents]](../README.md#table-of-contents)
+[Back to Table of Contents](../README.md)

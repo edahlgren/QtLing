@@ -41,4 +41,4 @@ Overall, the Crab algorithm is split into two phases: `CLexicon::Crab1` and `CLe
 
 Because the `CLexicon` class maintains so much state, it is relatively difficult to recreate only the state necessary to test an individual step of the Crab algorithm.
 
-[[Back to Table of Contents]](../README.md#table-of-contents)
+[Back to Table of Contents](../README.md)

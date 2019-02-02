@@ -2,7 +2,7 @@
 
 This section contains several examples of how to change steps in the Crab algorithm to fit this format:
 
-![Alt text](./format_tmp.svg)
+![Alt text](./json_format.svg)
 
 The examples are written in C++ and should be easy to read, build, and execute. They use only C++ standard libraries and a single, header-only third-party library for working with JSON.
 
@@ -30,4 +30,4 @@ $ cd docs/design/RFC-modular-reusable-steps
 + [Example 4: Reading and Writing to JSON files](./Example4.md)
 
 
-[Back to Table of Contents](../README.md#table-of-contents)
+[Back to Table of Contents](../README.md)

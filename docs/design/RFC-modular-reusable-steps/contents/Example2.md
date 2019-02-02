@@ -264,4 +264,4 @@ To better understand the JSON operations, see [Reading and Writing to JSON files
 
 [[Go to Example 3]](./Example3.md)
 
-[[Back to Table of Contents]](../README.md#table-of-contents)
+[Back to Table of Contents](../README.md)

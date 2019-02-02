@@ -57,4 +57,4 @@ If all steps succeed, you should see output like this:
 
 ![Alt text](./sample-output.png)
 
-[[Back to Table of Contents]](../README.md#table-of-contents)
+[Back to Table of Contents](../README.md)

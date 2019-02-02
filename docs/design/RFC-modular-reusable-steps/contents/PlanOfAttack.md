@@ -16,4 +16,4 @@
 
 The ordering of these steps can change, but there is value in doing steps 1 and 2 first: they make parallel development in C++ and Python much easier by establishing common data formats and rules of execution.
 
-[[Back to Table of Contents]](../README.md#table-of-contents)
+[Back to Table of Contents](../README.md)

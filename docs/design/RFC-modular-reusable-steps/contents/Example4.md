@@ -87,4 +87,4 @@ To learn more about the [`nlohmann::json`](https://github.com/nlohmann/json) lib
 + [Fully-executable examples](https://github.com/nlohmann/json/tree/develop/doc/examples)
 + [Doxygen documentation](https://nlohmann.github.io/json/)
 
-[[Back to Table of Contents]](../README.md#table-of-contents)
+[Back to Table of Contents](../README.md)

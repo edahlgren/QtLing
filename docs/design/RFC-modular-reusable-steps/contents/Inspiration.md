@@ -24,6 +24,6 @@ Despite its complexities and limitations, [Apache Beam](https://beam.apache.org/
 
 + **Precisely define the interface of a step (inputs and outputs).** This principle supports multiple implementations of a step, where each implementation can easily be plugged in and out of the dataflow.
 
-This proposal tries to incorporate these principles. It also paves the way to using a gold-standard project like [Apache Beam](https://beam.apache.org/get-started/beam-overview/) in the future. See [Cloud Support](../README.md#introduction) for more detail.
+This proposal tries to incorporate these principles. It also paves the way to using a gold-standard project like [Apache Beam](https://beam.apache.org/get-started/beam-overview/) in the future. See [Cloud Support](../README.md) for more detail.
 
-[[Back to Table of Contents]](../README.md#table-of-contents)
+[Back to Table of Contents](../README.md)

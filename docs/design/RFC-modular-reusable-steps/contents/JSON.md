@@ -34,4 +34,4 @@ A JSON object does not strictly need to contain the `typename` field. But having
 
 It is recommended to use a similar convention to validate that input at each step of the Crab algorithm is valid and expected. After all, it is very easy to accidently pass the wrong file to a program. This convention allows programs to fail gracefully when this happens.
 
-[[Back to Table of Contents]](../README.md#table-of-contents)
+[Back to Table of Contents](../README.md)

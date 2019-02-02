@@ -6,7 +6,18 @@ relative_links:
 include:
   - CONTRIBUTING.md
   - README.md
-  - contents/*.md
+  - contents/Background.md
+  - contents/Examples.md
+  - contents/Example1.md
+  - contents/Example2.md
+  - contents/Example3.md
+  - contents/Example4.md
+  - contents/GUI.md
+  - contents/Inspiration.md
+  - contents/JSON.md
+  - contents/PlanOfAttack.md
+  - contents/Summary.md
+  - contents/TestingDebugging.md
   - LICENSE.md
   - COPYING.md
   - CODE_OF_CONDUCT.md
