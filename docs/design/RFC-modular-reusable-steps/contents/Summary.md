@@ -53,7 +53,7 @@ echo "${PROTOSTEM_WORDS_FILE}"
 
 > **NOTE:** See [Testing & Debugging](./TestingDebugging.md) to demo a similar script.
 
-The dataflow of the Crab algorithm is made more apparent and understandable by chaining steps in this fashion.
+The dataflow of the Crab algorithm can be made more apparent and understandable by chaining steps in this fashion.
 
 > **NOTE:** It is of course also possible to avoid writing to the filesystem (“silent” mode) to improve performance. It is also possible to combine the steps in a single executable for convenience. But importantly, in order to attain the benefits of this proposal, there should always be an option to write the output of each step in the Crab algorithm to the filesystem.
 
