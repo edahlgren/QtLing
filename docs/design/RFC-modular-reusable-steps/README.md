@@ -1,7 +1,5 @@
 # RFC: Modular reusable steps in QtLing
 
-## Abstract
-
 This document proposes a way to refactor the code in [QtLing](https://github.com/edahlgren/QtLing) so users can easily understand and experiment with the dataflow of its main algorithm (the "Crab" algorithm). The proposal presented is inspired by principles used in [Apache Beam](https://beam.apache.org/get-started/beam-overview/) and is sensitive to debugging, testing, and multi-language support (particularly for C++ and Python). At the core of the proposal is changing each step in the Crab algorithm to output linguistic data to a file on the user’s filesystem.
 
 
