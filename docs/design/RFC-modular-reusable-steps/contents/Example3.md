@@ -37,11 +37,11 @@ void CLexicon::step1_from_words_to_protostems() {
 }
 ```
 
-#### Example change
+#### The example
+
+[[C++ Code]](https://github.com/edahlgren/QtLing/blob/master/docs/design/RFC-modular-reusable-steps/examples/suffix_find_protostem_words.cpp)
 
 > **NOTE:** This example only covers code that executes when finding suffixes, *not prefixes*. It may be helpful to keep the cases separate and put common code in a small library.
-
-[[C++ Code]](../examples/suffix_find_protostem_words.cpp)
 
 + **Input file 1**: a JSON formated file containing sorted words and their frequencies
 

@@ -43,9 +43,9 @@ output << std::setw(4) << j << std::endl;
 
 #### The example
 
-> **NOTE:** This example reads a JSON-formatted file into memory and pretty prints it to a different file so that the contents are easier to read.
+[[C++ Code]](https://github.com/edahlgren/QtLing/blob/master/docs/design/RFC-modular-reusable-steps/examples/json_read_write.cpp)
 
-[[C++ Code]](../examples/json_read_write.cpp)
+> **NOTE:** This example reads a JSON-formatted file into memory and pretty prints it to a different file so that the contents are easier to read.
 
 #### Try the example
 

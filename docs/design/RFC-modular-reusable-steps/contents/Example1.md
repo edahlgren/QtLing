@@ -37,9 +37,9 @@ void MainWindow::read_dx1_file()
 
 #### The example
 
-> **NOTE:** This example only covers code that executes when finding suffixes, *not prefixes*. It may be helpful to keep the cases separate and put common code in a small library.
+[[C++ Code]](https://github.com/edahlgren/QtLing/blob/master/docs/design/RFC-modular-reusable-steps/examples/suffix_sort_words.cpp)
 
-[[C++ Code]](../examples/suffix_sort_words.cpp)
+> **NOTE:** This example only covers code that executes when finding suffixes, *not prefixes*. It may be helpful to keep the cases separate and put common code in a small library.
 
 + **Input file**: a DX1 formated file containing words and optionally word frequencies
 
