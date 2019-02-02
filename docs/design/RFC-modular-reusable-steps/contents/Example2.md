@@ -69,7 +69,7 @@ void CLexicon::step1_from_words_to_protostems() {
 
 Build the example:
 
-```
+```console
 $ g++ -std=c++11 suffix_find_protostems.cpp -o test/suffix_find_protostems
 ```
 
@@ -77,7 +77,7 @@ Execute the example:
 
 > **NOTE:** Execute the previous example to generate a `suffix_sorted_words.json` file.
 
-```
+```console
 $ cd test
 $ ./suffix_find_protostems suffix_sorted_words.json
 suffix_protostems.json
@@ -85,7 +85,7 @@ suffix_protostems.json
 
 Inspect the JSON data to see the protostems. If using the `suffix_sorted_words.json` file from the previous example, expect to see:
 
-```
+```console
 $ cat suffix_protostems.json
 {
     "protostems": [

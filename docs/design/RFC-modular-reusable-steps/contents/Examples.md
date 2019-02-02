@@ -10,14 +10,14 @@ The examples are written in C++ and should be easy to read, build, and execute. 
 
 (Pre-install the C++ json library)
 
-```
+```console
 $ git clone git@github.com:nlohmann/json.git
 $ sudo cp -r json/single_include/nlohmann /usr/local/include
 ```
 
 (Download the example code)
 
-```
+```console
 $ git clone git@github.com:edahlgren/QtLing.git
 $ cd docs/design/RFC-modular-reusable-steps
 ```

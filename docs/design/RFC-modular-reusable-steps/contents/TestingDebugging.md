@@ -14,39 +14,39 @@ To demo the script, first make sure that you have built the examples:
 
 (Pre-install the C++ json library)
 
-```
+```console
 $ git clone git@github.com:nlohmann/json.git
 $ sudo cp -r json/single_include/nlohmann /usr/local/include
 ```
 
 (Download the example code)
 
-```
+```console
 $ git clone git@github.com:edahlgren/QtLing.git
 $ cd docs/design/RFC-modular-reusable-steps
 ```
 
 Build the first example (step 1):
 
-```
+```console
 $ g++ -std=c++11 suffix_sort_words.cpp -o test/suffix_sort_words
 ```
 
 Build the second example (step 2):
 
-```
+```console
 $ g++ -std=c++11 suffix_find_protostems.cpp -o test/suffix_find_protostems
 ```
 
 Build the third example (step 3):
 
-```
+```console
 $ g++ -std=c++11 suffix_find_protostem_words.cpp -o test/suffix_find_protostem_words
 ```
 
 Then to execute the script, run (or replace `test.dx1` with any DX1 formatted file):
 
-```
+```console
 $ cd test
 $ ./execute_suffix_steps.sh test.dx1
 ```

@@ -51,7 +51,7 @@ void MainWindow::read_dx1_file()
 
 Build the example:
 
-```
+```console
 $ g++ -std=c++11 suffix_sort_words.cpp -o test/suffix_sort_words
 ```
 
@@ -59,7 +59,7 @@ Execute the example:
 
 > **NOTE:** While not necessary, we recommend putting all generated files in the provided `test` directory. The provided `test.dx1` file is the first 10 lines of [browncorpus.dx1](https://github.com/edahlgren/QtLing/blob/master/QtLing/browncorpus.dx1).
 
-```
+```console
 $ cd test
 $ ./suffix_sort_words test.dx1
 suffix_sorted_words.json
@@ -67,7 +67,7 @@ suffix_sorted_words.json
 
 Inspect the JSON data to see the sorted word list:
 
-```
+```console
 $ cat suffix_sorted_words.json
 {
     "typename": "Suffix.SortedWords",

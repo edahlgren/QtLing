@@ -4,7 +4,7 @@
 
 This proposal recommends using the open-source, MIT-licensed [nlohmann::json](https://github.com/nlohmann/json) C++ library for reading and writing to JSON objects and files. Installation is very simple because the library is in a single file (header-only):
 
-```
+```console
 $ git clone git@github.com:nlohmann/json.git
 $ sudo cp -r json/single_include/nlohmann /usr/local/include
 ```
@@ -51,7 +51,7 @@ output << std::setw(4) << j << std::endl;
 
 Build the example:
 
-```
+```console
 $ g++ -std=c++11 json_read_write.cpp -o test/json_read_write
 ```
 
@@ -59,14 +59,14 @@ Execute the example:
 
 > **NOTE:** While not necessary, we recommend putting all generated files in the provided `test` directory. The provided `simple.json` file is a small JSON formatted file that is not pretty-printed.
 
-```
+```console
 $ cd test
 $ ./json_read_write simple.json pretty.json
 ```
 
 Inspect the `pretty.json` file to see the transformation:
 
-```
+```console
 $ cat pretty.json
 {
     "answer": {
