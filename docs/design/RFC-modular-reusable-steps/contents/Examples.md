@@ -30,4 +30,4 @@ $ cd docs/design/RFC-modular-reusable-steps
 + [Example 4: Reading and Writing to JSON files](./Example4.md)
 
 
-[[Back to Table of Contents]](../README.md#table-of-contents)
+[Back to Table of Contents](../README.md#table-of-contents)
