@@ -262,6 +262,6 @@ int write_output(const char *output_filename, std::set<std::string>& protostems)
 
 To better understand the JSON operations, see [Reading and Writing to JSON files](./Example4.md).
 
-[[Go to Example 3]](./Example3.md)
+[Go to Example 3](./Example3.md)
 
 [Back to Table of Contents](../README.md)

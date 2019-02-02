@@ -270,6 +270,6 @@ int write_output(const char *output_filename,
 
 To better understand the JSON operations, see [Reading and Writing to JSON files](./Example4.md).
 
-[[Go to Example 4]](./Example4.md)
+[Go to Example 4](./Example4.md)
 
 [Back to Table of Contents](../README.md#table-of-contents)

@@ -213,6 +213,6 @@ int write_output(const char *output_filename, std::vector<struct word> &words) {
 
 To better understand the JSON operations, see [Reading and Writing to JSON files](./Example4.md).
 
-[[Go to Example 2]](./Example2.md)
+[Go to Example 2](./Example2.md)
 
 [Back to Table of Contents](../README.md)
