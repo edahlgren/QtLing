@@ -1,5 +1,7 @@
 ## Example Plan of Attack
 
+The ordering of these steps can change, but there is value in doing steps 1 and 2 first: they make parallel development in C++ and Python much easier by establishing common data formats and rules of execution.
+
 1. Establish input and output data types for steps in the Crab algorithm. For example, to convert `MainWindow::read_dx1_file` to an independent step, we defined the `typename` "Suffix.SortedWords" and its associated JSON format in a precise way. This serves as initial documentation for each step.
 
 2. Determine if any steps can be executed in parallel. If so, write this in high-level control flow documentation. This will become valuable if user demand performance improvements or support for running in the Cloud.
@@ -13,7 +15,5 @@
 6. Continue writing documentation and porting steps in the Crab algorithm to Python.
 
 7. Convert the GUI to read linguistic data from the filesystem and to subscribe for progress updates over a connection (pipe or socket).
-
-The ordering of these steps can change, but there is value in doing steps 1 and 2 first: they make parallel development in C++ and Python much easier by establishing common data formats and rules of execution.
 
 [Back to Table of Contents](../README.md)
